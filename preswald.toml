@@ -1,0 +1,21 @@
+[project]
+title = "📦 Inventory Insights"
+version = "0.1.0"
+port = 8501
+slug = "inventory-insights"
+entrypoint = "hello.py"
+
+[branding]
+name = "Inventory Insights"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#1F77B4"
+accentColor = "#FF7F0E"
+
+[data.my_dataset]
+type = "csv"
+path = "data/items.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
